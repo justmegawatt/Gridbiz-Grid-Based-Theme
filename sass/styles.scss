@@ -155,5 +155,44 @@ img {
 }
 
 // ~*~*~*~*~*~*~*~*~*~*~*~*~
-// Boxes
+// Info
 // ~*~*~*~*~*~*~*~*~*~*~*~*~
+
+.info {
+    background-color: var(--primary);
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    vertical-align: top;
+    grid-gap: 1em;
+
+    h2 {
+        margin-top: 0;
+    }
+}
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~
+// Portfolio
+// ~*~*~*~*~*~*~*~*~*~*~*~*~
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+
+    img {
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~
+// Footer
+// ~*~*~*~*~*~*~*~*~*~*~*~*~
+
+footer {
+    background-color: var(--dark);
+    color: var(--light);
+    text-align: center;
+    padding: 1em;
+}

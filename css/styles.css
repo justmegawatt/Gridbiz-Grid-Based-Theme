@@ -128,4 +128,35 @@ img {
 .box h3 {
   margin-bottom: 0;
 }
+
+.info {
+  background-color: var(--primary);
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  vertical-align: top;
+  grid-gap: 1em;
+}
+
+.info h2 {
+  margin-top: 0;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+}
+
+.portfolio img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+footer {
+  background-color: var(--dark);
+  color: var(--light);
+  text-align: center;
+  padding: 1em;
+}
 /*# sourceMappingURL=styles.css.map */
