@@ -169,6 +169,10 @@ img {
     h2 {
         margin-top: 0;
     }
+
+    img {
+        width: 100%;
+    }
 }
 
 // ~*~*~*~*~*~*~*~*~*~*~*~*~
@@ -179,6 +183,7 @@ img {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1em;
+    box-shadow: var(--shadow);
 
     img {
         margin: 0 auto;
@@ -191,8 +196,12 @@ img {
 // ~*~*~*~*~*~*~*~*~*~*~*~*~
 
 footer {
+    margin-top: 1rem;
     background-color: var(--dark);
     color: var(--light);
     text-align: center;
     padding: 1em;
 }
+
+@import "styles-under-700px";
+@import "styles-under-500px";

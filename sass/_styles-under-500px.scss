@@ -1,0 +1,78 @@
+@media (max-width: 500px) {
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~
+// General
+// ~*~*~*~*~*~*~*~*~*~*~*~*~
+
+body {
+    margin: 0.2em;
+}
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~
+// Navigation
+// ~*~*~*~*~*~*~*~*~*~*~*~*~
+
+    .main-nav ul {
+    grid-template-columns: 1fr;
+}
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~
+// Top Container
+// ~*~*~*~*~*~*~*~*~*~*~*~*~
+
+.top-container {
+    grid-template-areas:
+    "showcase"
+    "top-box-a"
+    "top-box-b";
+}
+
+.showcase {
+    min-height: none;
+}
+
+.top-box {
+    padding: .7em;
+
+    .price {
+        font-size: 1.7rem;
+    }
+}
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~
+// Boxes
+// ~*~*~*~*~*~*~*~*~*~*~*~*~
+
+.boxes {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+}
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~
+// Info
+// ~*~*~*~*~*~*~*~*~*~*~*~*~
+
+.info {
+    background-color: var(--primary);
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    vertical-align: top;
+    grid-gap: 1em;
+
+    .btn {
+        display: block;
+        text-align: center;
+    }
+}
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~
+// Portfolio
+// ~*~*~*~*~*~*~*~*~*~*~*~*~
+
+.portfolio {
+    grid-template-columns: 1fr;
+}
+
+}
